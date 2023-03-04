@@ -6,3 +6,14 @@ const pizza = {
 };
 
 console.log(pizza);
+
+//object keys
+const car = {
+  make: "Honda",
+  model: "Accord",
+  year: 2020,
+};
+
+const keys = Object.keys(car);
+
+console.log(keys);
